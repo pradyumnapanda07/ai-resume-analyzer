@@ -104,17 +104,12 @@ Results are shown in Streamlit: a colour-coded match score, side-by-side skill c
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/resume-analyzer.git
+git clone [https://github.com/your-username/resume-analyzer.git](https://github.com/pradyumnapanda07/ai-resume-analyzer.git)
 cd resume-analyzer
 ```
 
 ### 2. Create and activate a virtual environment
 
-```bash
-python -m venv venv
-
-# macOS / Linux:
-source venv/bin/activate
 
 # Windows:
 venv\Scripts\activate
@@ -148,41 +143,6 @@ App opens at `http://localhost:8501`
 ### 6. Test it
 
 Upload `data/sample_resume.txt` and paste this sample job description:
-
-```
-We are looking for a GenAI Engineer with experience in:
-Python, LangChain, OpenAI API, RAG, FAISS, FastAPI, Streamlit,
-Hugging Face, LlamaIndex, Agents, Docker, AWS, Azure OpenAI,
-Prompt Engineering, Vector Databases, RAGAS evaluation framework.
-```
-
----
-
-## 📊 Sample Output
-
-```
-Match Score: 65% — Partial Match
-
-Your Resume Skills:         Job Description Skills:
-✅ Python                   🎯 Python
-✅ LangChain                🎯 LangChain
-✅ OpenAI API               🎯 OpenAI API
-✅ RAG                      🎯 RAG
-✅ FAISS                    🎯 FAISS
-✅ FastAPI                  🎯 FastAPI
-✅ Streamlit                🎯 Hugging Face ← missing
-✅ Prompt Engineering       🎯 LlamaIndex   ← missing
-                            🎯 AWS          ← missing
-
-Missing Skills: Hugging Face, LlamaIndex, AWS, Azure OpenAI, RAGAS
-
-Suggestions:
-1. Build a small project using Hugging Face Transformers...
-2. Explore LlamaIndex by rebuilding your RAG pipeline with it...
-3. Deploy one of your projects to AWS using EC2 or Lambda...
-```
-
----
 
 ## 📁 Project Structure
 
